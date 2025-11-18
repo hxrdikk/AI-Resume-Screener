@@ -1,0 +1,3 @@
+resume_path,similarity,length_chars,ORGs,PERSONs,DATEs
+../data/resumes/resume1.txt,0.7353039979934692,384,,,
+../data/resumes/resume2.txt,0.33523496985435486,315,,,

@@ -1,0 +1,13 @@
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.streamlit/
+*.log
+*.sqlite3
+models/
+data/
