@@ -1,3 +1,10 @@
+<!-- ~welcome note -->
+<p align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hello+there!;Welcome+to+my+GitHub+Profile!" />
+</p>
+
+<div style="margin-top:12px;"></div> 
+
 # AI-Powered Resume Screener (NLP + Semantic Similarity)
 
 A minimal, end-to-end project that parses resumes (text/PDF/DOCX), embeds them with Sentence-BERT, and ranks them against a Job Description using cosine similarity. Includes a Streamlit UI.
