@@ -5,6 +5,13 @@
 
 <div style="margin-top:12px;"></div> 
 
+<!-- ~about this project -->
+<h3 align="left"> ✨ About this project:</h3>
+
+<div style="margin-top:12px;"></div> 
+
+- 
+
 # AI-Powered Resume Screener (NLP + Semantic Similarity)
 
 A minimal, end-to-end project that parses resumes (text/PDF/DOCX), embeds them with Sentence-BERT, and ranks them against a Job Description using cosine similarity. Includes a Streamlit UI.
