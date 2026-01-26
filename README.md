@@ -46,3 +46,30 @@
 - CLI (Argparse) – Command-line batch processing tool
 - Pytest – Unit testing for similarity and ranking modules
 - Setup.cfg – Linting
+
+<!-- ~project structure -->
+<h3 align="left"> 🏗 Project Structure:</h3>
+
+```
+ai-resume-screener/
+├─ data/
+│  ├─ resumes/            # Resume files (TXT / PDF / DOCX)
+│  └─ jds/                # Job descriptions
+│
+├─ src/
+│  ├─ screener/
+│  │  ├─ __init__.py
+│  │  ├─ parser.py        # Resume & JD file parsers
+│  │  ├─ nlp.py           # Text cleaning, embeddings, spaCy
+│  │  ├─ matcher.py       # Similarity calculation & ranking
+│  │  └─ cli.py           # Command-line interface
+│  │
+│  └─ app.py              # Streamlit web application
+│
+├─ tests/
+│  └─ test_matcher.py     # Unit tests for ranking logic
+│
+├─ requirements.txt       # Project dependencies
+├─ setup.cfg              # Linting & formatting configuration
+└─ README.md              # Project documentation
+```
