@@ -73,3 +73,33 @@ ai-resume-screener/
 ├─ setup.cfg              # Linting & formatting configuration
 └─ README.md              # Project documentation
 ```
+
+<!-- ~installation & usage -->
+<h3 align="left"> ⚙️ Installation & Usage:</h3>
+
+1. Clone the Repository
+```bash
+git clone https://github.com/hxrdikk/AI-Resume-Screener.git
+cd AI-Resume-Screener
+```
+2️. Create and activate virtual environment
+```bash
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+# macOS / Linux
+source .venv/bin/activate
+```
+3️. Install dependencies 
+```bash
+pip install -r requirements.txt
+```
+
+4️. Download spaCy English model
+```bash
+python -m spacy download en_core_web_sm
+```
+<!-- ~deployment -->
+<h3 align="left"> 🚀 Deployment:</h3>
+
+~ HealthNest is currently deployed on Vercel →
